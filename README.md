@@ -18,6 +18,10 @@ const longestIncreasingSubsequence = require('js-longest-increasing-subsequence'
 longestIncreasingSubsequence([1,3,2,5,7])
 
 ```
+or using simple cli
+``` bash
+$ node cli.js
+```
 
 ## example
 ``` bash

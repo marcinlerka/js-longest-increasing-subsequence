@@ -1,6 +1,6 @@
 {
   "name": "js-longest-increasing-subsequence",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Longest Increasing Subsequence algorithm implementation in vanilla JavaScript",
   "main": "index.js",
   "engines": {
