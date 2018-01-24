@@ -1,0 +1,25 @@
+{
+  "name": "js-longest-increasing-subsequence",
+  "version": "0.1.0",
+  "description": "Longest Increasing Subsequence algorithm in node.js",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "test": "node ./test/nodeAssertTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcinlerka/js-longest-increasing-subsequence.git"
+  },
+  "author": "Marcin Lerka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcinlerka/js-longest-increasing-subsequence/issues"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
