@@ -31,6 +31,8 @@ $ node example.js
 
 ## tests
 
+[![Build Status](https://travis-ci.org/marcinlerka/js-longest-increasing-subsequence.svg?branch=master)](https://travis-ci.org/marcinlerka/js-longest-increasing-subsequence)  
+
 #### mocha test runner and chai assertion lib
 
 ``` bash
