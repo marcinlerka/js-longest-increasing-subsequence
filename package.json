@@ -1,13 +1,16 @@
 {
   "name": "js-longest-increasing-subsequence",
-  "version": "0.1.0",
-  "description": "Longest Increasing Subsequence algorithm in node.js",
+  "version": "1.0.0",
+  "description": "Longest Increasing Subsequence algorithm implementation in vanilla JavaScript",
   "main": "index.js",
   "engines": {
     "node": ">=6.9.1"
   },
   "scripts": {
-    "test": "node ./test/nodeAssertTest.js"
+    "test": "npm run test:mocha",
+    "test:mocha": "NODE_ENV=test mocha 'test/*.spec.js'",
+    "test:mocha:watch": "NODE_ENV=test mocha --watch 'test/*.spec.js'",
+    "test:assert": "node ./test/nodeAssertTest.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +18,13 @@
   },
   "author": "Marcin Lerka",
   "license": "MIT",
+  "homepage": "https://github.com/marcinlerka/js-longest-increasing-subsequence",
   "bugs": {
     "url": "https://github.com/marcinlerka/js-longest-increasing-subsequence/issues"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
