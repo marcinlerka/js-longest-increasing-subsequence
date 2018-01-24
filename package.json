@@ -1,6 +1,6 @@
 {
   "name": "js-longest-increasing-subsequence",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Longest Increasing Subsequence algorithm implementation in vanilla JavaScript",
   "main": "index.js",
   "engines": {
@@ -10,7 +10,8 @@
     "test": "npm run test:mocha",
     "test:mocha": "NODE_ENV=test mocha 'test/*.spec.js'",
     "test:mocha:watch": "NODE_ENV=test mocha --watch 'test/*.spec.js'",
-    "test:assert": "node ./test/nodeAssertTest.js"
+    "test:assert": "node ./test/nodeAssertTest.js",
+    "cli": "node cli.js"
   },
   "repository": {
     "type": "git",

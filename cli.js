@@ -7,13 +7,13 @@ let rl = readline.createInterface({
 })
 
 const questions = () => {
-  console.log('\n---- enter array of numbers ----')
-  rl.question('array:   ', string => {
+  console.log('\n-----  enter an array of numbers   -----')
+  rl.question(' ', string => {
     let array = string.match(/^[\d+\,]+$/) // to refactor
       ? string.split(",")
       : 'string'
     let lis = longestIncreasingSubsequence(array)
-    console.log('===== longest increasing subsequence =====')
+    console.log('==== longest increasing subsequence ====')
     console.log(`(☞ﾟヮﾟ)☞ [ ${lis} ]`)
     questions()
   })

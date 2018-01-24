@@ -20,7 +20,7 @@ longestIncreasingSubsequence([1,3,2,5,7])
 ```
 or using simple cli
 ``` bash
-$ node cli.js
+$ npm run cli
 ```
 
 ## example
@@ -41,7 +41,7 @@ $ npm test
 
 #### assert from node.js standard lib 
 ``` bash
-$ npm test:assert
+$ npm run test:assert
 ```
 
 ## JS style
